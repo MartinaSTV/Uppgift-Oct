@@ -1,46 +1,9 @@
-
-<homepages xmlns:xlink="startsida.html">
-  <homepage xlink:type="simple" xlink:href="startsida.html">
-            
-  </homepage>
-  <homepage xlink:type="simple" xlink:href="about.html"></homepage>
-  <homepage xlink:type="simple" xlink:href="osteopati.html"></homepage>
-  <homepage xlink:type="simple" xlink:href="Kontakt.html"></homepage>
-</homepages>
-
-
-<startsida>
-    <url>https://www.bokadirekt.se/places/martina-osteopat-20103</url>
-    <img>bokadirekt-logo2.png<img/>
-    <img><../Uppgift Oct/img/pexels-yogendra-singh-1701197 - kopia.jpg/><img/>
-    <img><../Uppgift Oct/img/skelet - kopia.jpg/><img/>
-    <img>../Uppgift Oct/img/gbgvägen.jpg<img/>
-    <img>../Uppgift Oct/img/behandlingsrum.jpg<img/>
-</startsida>
-
-<about.html>
-    <img>img/Martina Tornström-4567 s.jpg<img/>
-<about.html/>
-
-<osteopati.html>
-    <url>https://www.osteopatforbundet.se/om-osteopati/</url>
-    <url>https://www.weleda.se/av-naturen/kvalitet</url>
-    <img>img/epassi.jpg<img/>
-<osteopati.html/>
-
-<Kontakt.html>
-    <url>https://sv-se.facebook.com/MartinaOsteopat/</url>
-    <url>https://maps.google.com/maps?q=G%C3%B6teborgsv%C3%A4gen%2015C%20Lerum&t=&z=13&ie=UTF8&iwloc=&output=embed</url>  
-<Kontakt.html/>
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://example.com/</loc>
+<loc>https://example.com/startsida</loc>
 <image:image>
-<image:loc>https://example.com/image-url.png</image:loc>
+<image:loc>https://example.com/img/bokadirekt-logo2.png</image:loc>
 </image:image>
 <lastmod>2021-08-21T16:12:20+03:00</lastmod>
 <changefreq>daily</changefreq>
