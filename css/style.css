@@ -300,6 +300,7 @@ h2, h1{
 }
 .display{
     float: right;
+    margin: 15px;
 }
 .map{
     display: flex;
@@ -328,7 +329,38 @@ form{
     background-color: rgb(67, 77, 92);
     color: white;
 }
-
+.dark-mode td{
+  background-color: rgb(202, 209, 218) ;
+  color: black;
+}
+.dark-mode th{
+  background-color: rgb(202, 209, 218) ;
+  color: black;
+}
+.dark-mode .prize{
+  background-color: rgb(202, 209, 218) ;
+  color: black;
+}
+.dark-mode .look{
+  background-color:  rgb(67, 77, 92) ;
+  color: white;
+}
+.dark-mode .Sklink{
+  background-color:  rgb(67, 77, 92) ;
+  color: white;
+}
+.dark-mode .facebook{
+  background-color:  rgb(67, 77, 92) ;
+  color: white;
+}
+.dark-mode .Sklink:hover{
+  background-color:  rgb(100, 124, 161) ;
+  color: white;
+}
+.dark-mode .facebook:hover{
+  background-color:  rgb(98, 119, 150) ;
+  color: white;
+}
 .dark-mode .rubrik{
     
     color: black;  
@@ -366,7 +398,12 @@ input{
 .look{
   background-color: rgb(223, 230, 227);
 }
-
+.sitemap{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
 
 @media only screen and (max-width: 600px){
     .desk-container{
