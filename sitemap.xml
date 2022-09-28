@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://example.com/startsida</loc>
+<loc>https://example.com/index</loc>
 <image:image>
 <image:loc>https://example.com/img/bokadirekt-logo2.png</image:loc>
+<image:loc>https://example.com/img/behandlingsrum.jpg</image:loc>
+<image:loc>https://example.com/img/gbgvägen.jpg</image:loc>
+<image:loc>https://example.com/img/pexel-yougendra-singh-1701197-kopia.jpg</image:loc>
+<image:loc>https://example.com/img/skelet-kopia.jpg</image:loc>
 </image:image>
 <lastmod>2021-08-21T16:12:20+03:00</lastmod>
+<changefreq>daily</changefreq>
+ <priority>1.0</priority>
+</url>
+<url>
+<loc>https://example.com/about.html</loc>
+<image:image>
+<image:loc>https://example.com/image/Martina Tornström-4567s.jpg</image:loc>
+</image:image>
+<lastmod>2021-07-31T07:56:12+03:00</lastmod>
+<changefreq>daily</changefreq>
+ <priority>0.8</priority>
+</url>
+<url>
+<loc>https://example.com/kontakt</loc>
+<lastmod>2021-07-31T07:56:12+03:00</lastmod>
 <changefreq>daily</changefreq>
  <priority>0.9</priority>
 </url>
 <url>
-<loc>https://example.com/blog/</loc>
+<loc>https://example.com/osteopati</loc>
 <image:image>
-<image:loc>https://example.com/image-url.png</image:loc>
+<image:loc>https://example.com/image/epassi.jpg</image:loc>
 </image:image>
 <lastmod>2021-07-31T07:56:12+03:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.9</priority>
+ <priority>0.8</priority>
 </url>
 </urlset>image>
