@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content='kontakt, karta, öppetider, adress'/>
+    <meta name="keywords"	content='smärta, värk, stelhet, osteopat, karta, map, hitta, öppetider,'/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="kontakt">
+
+    <title>Kontakt</title>
+
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+   
+</head>
+<body>
+    <header><h1>Martina Osteopat</h1></header>
+    <div class="mobile-container">
+
+        <div class="topnav">
+          <a href="startsida.html" class="active">Startsida</a>
+          <div id="myLinks">
+            <a href="startsida.html">Startsida</a>
+            <a href="about.html">Om mig</a>
+            <a href="osteopati.html">Osteopati/Massage</a>
+            <a href="Kontakt.html">Kontakt</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="mobilmenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>  
+   
+    <div class="desk-container">
+    <nav class="buttons">
+        <a href="startsida.html"><button>Startsida</button></a>
+        <a href="about.html"><button>Om mig</button></a>
+        <a href="osteopati.html"><button>Osteopati/Massage</button></a>
+        <a href="Kontakt.html"><button>Kontakt</button></a>
+    </nav>
+
+    </div>
+        
+
+    <div class="container">
+
+    <div>
+        <h1 style="text-align: center;">Kontakt</h1> 
+    </div>
+ 
+    <div class="row">
+        <div class="col-12">
+
+            <div class="row">
+                <div class="col-md-6" style="text-align: center;">
+                    <p>Martina Tornström<br>Göteborgsvägen 15C<br>44330 Lerum</p>
+                    <p>Telefon nr 0767 758 286 <br>Mail info@martina-osteopat.se</p>
+                    <p>Du hittar mig lätt i Lerum centrum bredvid Rödakorsets lokaler vid lilla torget.<br>Lerum centrum är närmsta buss/tåg station för dom som pendlar. <br> Parkering finns vid tågstationen/centrum</p>
+        
+                    <p>Jag finns också på Facebook se länk:<a class="facebook" href="https://sv-se.facebook.com/MartinaOsteopat/" target="_blank">Facebook</a></p>
+                </div>
+
+                <div class="col-md-6">  
+                    <table class="opend">
+                        <tr><th colspan="2">Öppetider</th></tr>
+                        <tr><td>Måndag</td><td>Stängt</td></tr>
+                        <tr><td>Tisdag</td><td>9-16</td></tr>
+                        <tr><td>Onsdag</td><td>Stängt</td></tr>
+                        <tr><td>Tordag</td><td>13-20</td></tr>
+                        <tr><td>Fredag</td><td>13-16</td></tr>
+                        <tr><td>Helg samt Helgdag</td><td>Stängt</td></tr>
+                    </table>    
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="row">   
+        <div class="col-12">
+            <div class="row">
+                <div class="col-md-6" style="text-align: center;">      
+                    <form action="" name="contactform" onsubmit="return validateForm()" method="post">
+                        <label >Förnamn</label><br>
+                        <input id="inputname" name="inputname" value="" style="width: 250px ;" type="text"><br>
+                       
+                        <label >Efternamn</label><br>
+                        <input id="inputlastName" name="inputlastName" value="" style="width: 250px ;" type="text"><br>
+                        
+                        <label for="mailname">Mailadress</label><br>
+                        <input style="width: 250px ;" type="email" id="inputemail" name="inputemail" value=""><br>
+                        
+                        <label for="message">Medelande</label><br>
+                        <textarea style="width: 250px;" name="comment" id="comment" value=""></textarea><br>
+                     
+                        <input type="submit" value="submit" id="submit" name="submit" class=""/>
+                
+                      </form>
+                </div> 
+                   
+                <div class="col-md-6 map">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=G%C3%B6teborgsv%C3%A4gen%2015C%20Lerum&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:250px;width:300px;}</style><a href="https://www.embedgooglemap.net">how to add a google map to wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:300px;}</style></div></div>
+                </div>  
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
