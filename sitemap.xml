@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://example.com/index</loc>
+<loc>https://example.com/index.html</loc>
 <image:image>
 <image:loc>https://example.com/img/bokadirekt-logo2.png</image:loc>
 <image:loc>https://example.com/img/behandlingsrum.jpg</image:loc>
