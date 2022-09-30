@@ -7,13 +7,6 @@ function mobilmenu(){
     x.style.display = "block";
   }
 }
-// Display Tema//
-function darkMode(){
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-}
-// storage Darkmode
-
 
 
 //Kontroll kontaktformulär//
@@ -73,4 +66,19 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+}
+
+// Display Tema//
+function darkMode(){
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+
+  localStorage.setItem("darkMode", element.classList.contains("dark-mode"));
+  
+  }
+
+var element = document.body;
+if(localStorage.setItem("darkMode")) {
+  //dark-mode is on
+  element.classList.add("dark-mode");
 }

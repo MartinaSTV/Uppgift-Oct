@@ -366,7 +366,8 @@ form{
     color: black;  
 }
 .dark-mode header{
-    background-color: rgb(67, 77, 92);
+    background-color: rgb(202, 209, 218) ;
+    color: black;  
 }
 .dark-mode .book{
     background-color:  rgb(202, 209, 218) ;
@@ -377,6 +378,13 @@ form{
 .dark-mode button:hover{
     background-color: rgb(173, 173, 183);
 }
+.dark-mode #submit{
+  background-color: rgb(202, 209, 218)  ;
+}
+.dark-mode #submit:hover{
+  background-color: rgb(173, 173, 183) ;
+}
+
 
 .mobile-container{
     display: none;
